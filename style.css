@@ -1,0 +1,143 @@
+body {
+  margin: 0 0 50px 0;
+}
+
+/*FONTS*/
+h1, h2, h3, h4, button, input, p, a {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 0;
+  color: #F2F2F2;
+}
+
+.title-blue {
+  color: #34D1D1;
+}
+
+.student-name {
+  font-weight: 600;
+  margin: 0;
+  color: #F2F2F2;
+}
+
+h3 {
+  font-size: 25px;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-right: 30px;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 15px;
+  border-bottom: 1px solid #D1D2D3;
+  margin-top: 10px;
+}
+
+p {
+  font-size: 20px;
+  margin-top: 0;
+}
+
+/*HEADER*/
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #2F2235;
+  padding: 20px 50px;
+  margin-bottom: 20px;
+}
+
+#accordion-tabs {
+  margin: 50px;
+}
+
+.accordion-tabs-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.title-line {
+  height: 10px;
+  border-top: 1px solid #D1D2D3;
+  flex-grow: 2;
+}
+
+.tab-area {
+  width: 80%;
+  margin: 30px auto;
+}
+
+.tabs {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.tablinks {
+  background: #F2F2F2;
+  border: none;
+  border-bottom: 1px solid #D1D2D3;
+  flex-grow: 1;
+  font-size: 20px;
+  padding: 20px 30px;
+  margin: 0 1px;
+}
+
+.tablinks:focus {
+  outline: rgba(0, 0, 0, 0);
+}
+
+.isActive {
+  background: #FFFFFF;
+  border: 1px solid #D1D2D3;
+  border-bottom: none;
+  font-weight: 600;
+}
+
+.tab-content {
+  display: flex;
+  border: 1px solid #D1D2D3;
+  border-top: none;
+  box-sizing: border-box;
+  width: 99.75%;
+  padding: 50px 20px 30px 20px;
+  margin: 0 auto;
+}
+
+.tab-image {
+  height: 350px;
+  min-width: 290px;
+  background: #F2F2F2;
+  border: 1px solid #D1D2D3;
+}
+
+.tab-text {
+  padding: 0 30px;
+}
+
+
+
+a {
+  display: block;
+  width: 20%;
+  background: #3F3244;
+  color: #FFFFFF;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: none;
+  font-size: 20px;
+  padding: 20px 30px;
+  margin: auto;
+}
+
+.hidden {
+  display: none;
+}
