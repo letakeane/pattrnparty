@@ -160,6 +160,54 @@ header {
   margin: 0;
 }
 
+/*HEADER BAR*/
+.header-bar-area {
+  width: 90%;
+  margin: 30px auto;
+}
+
+.bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #D1D2D3;
+  box-sizing: border-box;
+  padding: 25px;
+}
+
+.nav-link {
+  margin: 0;
+}
+
+.circle {
+  height: 80px;
+  width: 80px;
+  border-radius: 50px;
+  border: 1px solid #666666;
+  background: #F2F2F2;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #666666;
+  background: #F2F2F2;
+  box-sizing: border-box;
+  padding: 15px;
+}
+
+.search-image {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+
+#search {
+  border: none;
+  background: #F2F2F2;
+  font-size: 20px;
+}
+
 
 /*GLOBAL*/
 a {
