@@ -249,6 +249,10 @@ a {
   margin: 75px auto;
 }
 
+a:hover {
+  background: #34D1D1;
+}
+
 .feature {
   margin: 50px 80px 150px 80px;
 }
