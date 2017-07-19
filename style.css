@@ -380,6 +380,10 @@ a:hover {
 }
 
 @media screen and (max-width: 750px) {
+  header {
+    flex-direction: column;
+  }
+
   .tab-area,
   .flex-cards-area,
   .header-bar-area {
