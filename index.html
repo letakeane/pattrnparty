@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>pattrn party</title>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,600' rel='stylesheet'>
     <link rel='stylesheet' type='text/css' href='style.css'>
@@ -20,12 +21,16 @@
 
       <article class='tab-area'>
         <article class='tabs'>
-          <button id='tab1' class='tablinks isActive'>Tab 1</button>
-          <button id='tab2' class='tablinks'>Tab 2</button>
-          <button id='tab3' class='tablinks'>Tab 3</button>
-          <button id='tab4' class='tablinks'>Tab 4</button>
+          <button id='tab1' class='tab1 tablinks isActive'>Tab 1</button>
+          <button id='tab2' class='tab2 tablinks'>Tab 2</button>
+          <button id='tab3' class='tab3 tablinks'>Tab 3</button>
+          <button id='tab4' class='tab4 tablinks'>Tab 4</button>
         </article>
 
+        <div class='accordion-tab tab1 isActive'>
+          <p class='accordion-tab-title'>Tab 1</p>
+          <p class='tab1-status'>-<p>
+        </div>
         <article id='tab1-content' class='tab-content'>
           <div class='tab-image'></div>
           <article class='tab-text'>
@@ -39,6 +44,10 @@
           </article>
         </article>
 
+        <div class='accordion-tab tab2'>
+          <p class='accordion-tab-title'>Tab 2</p>
+          <p class='tab2-status'>+<p>
+        </div>
         <article id='tab2-content' class='tab-content hidden'>
           <div class='tab-image'></div>
           <article class='tab-text'>
@@ -52,6 +61,10 @@
           </article>
         </article>
 
+        <div class='accordion-tab tab3'>
+          <p class='accordion-tab-title'>Tab 3</p>
+          <p class='tab3-status'>+<p>
+        </div>
         <article id='tab3-content' class='tab-content hidden'>
           <div class='tab-image'></div>
           <article class='tab-text'>
@@ -65,6 +78,10 @@
           </article>
         </article>
 
+        <div class='accordion-tab tab4'>
+          <p class='accordion-tab-title'>Tab 4</p>
+          <p class='tab4-status'>+<p>
+        </div>
         <article id='tab4-content' class='tab-content hidden'>
           <div class='tab-image'></div>
           <article class='tab-text'>
@@ -153,10 +170,15 @@
 
       <article class='header-bar-area'>
         <article class='bar'>
-          <div class='circle'></div>
-          <p class='nav-link'>Navigation Link 1</p>
-          <p class='nav-link'>Navigation Link 2</p>
-          <p class='nav-link'>Navigation Link 3</p>
+          <div class='menu-top'>
+            <div class='circle'></div>
+            <p class='hidden-menu'>MENU</p>
+          </div>
+          <div class='link-container'>
+            <p class='nav-link'>Navigation Link 1</p>
+            <p class='nav-link'>Navigation Link 2</p>
+            <p class='nav-link'>Navigation Link 3</p>
+          </div>
           <div class='search-container'>
             <img class='search-image' src='search.svg' alt-text='magnifying glass icon' />
             <input id='search' type='text' placeholder='Search'></input>
