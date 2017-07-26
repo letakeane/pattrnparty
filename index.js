@@ -72,3 +72,8 @@ tab4.on('click', () => {
   tab3Content.addClass('hidden');
   tab3Status.text('+');
 })
+
+$('.bar').on('click', () => {
+  $('.link-container').toggleClass('hidden')
+  $('.search-container').toggleClass('hidden')
+})
